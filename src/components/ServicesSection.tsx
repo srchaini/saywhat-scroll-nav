@@ -17,14 +17,15 @@ const ServicesSection = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {services.map((service, index) => (
-            <div 
+            <a 
               key={index} 
-              className={`text-center text-lg font-medium text-foreground ${
+              href="#"
+              className={`text-center text-lg font-medium text-foreground hover:text-accent transition-colors cursor-pointer ${
                 index === 3 ? 'md:col-span-3' : ''
               }`}
             >
               {service}
-            </div>
+            </a>
           ))}
         </div>
       </div>

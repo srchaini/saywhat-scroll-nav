@@ -13,15 +13,24 @@ const ProductsSection = () => {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-5xl mx-auto">
-          <div className="flex flex-col items-center">
+          <a 
+            href="#" 
+            className="flex flex-col items-center hover:opacity-80 transition-opacity cursor-pointer"
+          >
             <img src={lekhaLogo} alt="LEKHA" className="h-24 object-contain" />
-          </div>
-          <div className="flex flex-col items-center">
+          </a>
+          <a 
+            href="#" 
+            className="flex flex-col items-center hover:opacity-80 transition-opacity cursor-pointer"
+          >
             <img src={prismLogo} alt="PRISM" className="h-24 object-contain" />
-          </div>
-          <div className="flex flex-col items-center">
+          </a>
+          <a 
+            href="#" 
+            className="flex flex-col items-center hover:opacity-80 transition-opacity cursor-pointer"
+          >
             <img src={sayWhatLogo} alt="SayWhat!" className="h-24 object-contain" />
-          </div>
+          </a>
         </div>
       </div>
     </section>

@@ -43,7 +43,7 @@ const Navigation = () => {
             onClick={scrollToTop}
             className="flex items-center hover:opacity-80 transition-opacity"
           >
-            <img src={eaigenLogo} alt="Eaigen Solutions" className="h-12" />
+            <img src={eaigenLogo} alt="Eaigen Solutions" className="h-36" />
           </button>
           
           <div className="flex items-center gap-8">
@@ -91,12 +91,6 @@ const Navigation = () => {
               className="text-foreground hover:text-accent transition-colors"
             >
               About Us
-            </button>
-            <button 
-              onClick={scrollToTop}
-              className="hover:opacity-80 transition-opacity"
-            >
-              <img src={eaigenLogo} alt="Home" className="h-8" />
             </button>
           </div>
         </div>
