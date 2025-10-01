@@ -17,19 +17,19 @@ const ProductsSection = () => {
             href="#" 
             className="flex flex-col items-center hover:opacity-80 transition-opacity cursor-pointer"
           >
-            <img src={lekhaLogo} alt="LEKHA" className="h-24 object-contain" />
+            <img src={lekhaLogo} alt="LEKHA" className="h-36 object-contain" />
           </a>
           <a 
             href="#" 
             className="flex flex-col items-center hover:opacity-80 transition-opacity cursor-pointer"
           >
-            <img src={prismLogo} alt="PRISM" className="h-24 object-contain" />
+            <img src={prismLogo} alt="PRISM" className="h-36 object-contain" />
           </a>
           <a 
             href="#" 
             className="flex flex-col items-center hover:opacity-80 transition-opacity cursor-pointer"
           >
-            <img src={sayWhatLogo} alt="SayWhat!" className="h-24 object-contain" />
+            <img src={sayWhatLogo} alt="SayWhat!" className="h-36 object-contain" />
           </a>
         </div>
       </div>
