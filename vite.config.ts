@@ -4,7 +4,8 @@ import path from "path";
 import fs from "fs";
 
 export default defineConfig({
-  base: "/saywhat-scroll-nav/",   // 👈 Must match your repo name
+  // base: "/saywhat-scroll-nav/",   // 👈 Must match your repo name
+  base: "./", // 👈 Use relative paths for GitHub Pages
   plugins: [
     react(),
     {
