@@ -13,7 +13,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/saywhat-scroll-nav/">
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
           {/* add other routes here */}
