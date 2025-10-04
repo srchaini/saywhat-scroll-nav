@@ -13,7 +13,7 @@ const ContactSection = () => {
             <p className="text-lg font-medium text-foreground mb-2">
               <span className="underline">Write to us at:</span>
             </p>
-            <p className="text-lg text-foreground">sales@eigen.tech</p>
+            <p className="text-lg text-foreground">sales@eaigen.tech</p>
           </div>
           
           <div className="pt-6">
