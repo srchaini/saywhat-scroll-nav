@@ -21,9 +21,9 @@ const CareersSection = () => {
         <div className="max-w-3xl mx-auto text-center space-y-4">
           <div>
             <p className="text-lg font-medium text-foreground mb-2">
-              <span className="underline">Write to us at:</span>
+              <span className="underline">Submit your resume at:</span>
             </p>
-            <p className="text-lg text-foreground">sales@eaigen.tech</p>
+            <p className="text-lg text-foreground">careers@eaigen.tech</p>
           </div>
         </div>
         <div className="max-w-4xl mx-auto">
