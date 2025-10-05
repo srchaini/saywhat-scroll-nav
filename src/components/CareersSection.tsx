@@ -1,9 +1,13 @@
 const CareersSection = () => {
   const positions = [
-    { title: 'Front End Intern', experience: '0-2', location: 'Remote' },
-    { title: 'Data Science Intern', experience: '0-2', location: 'Remote' },
-    { title: 'Business Analysis Intern', experience: '0-2', location: 'Remote' },
-    { title: 'Python Developer Intern', experience: '0-2', location: 'Remote' }
+    { title: "Front End Intern", experience: "0-2", location: "Remote" },
+    { title: "Data Science Intern", experience: "0-2", location: "Remote" },
+    {
+      title: "Business Analysis Intern",
+      experience: "0-2",
+      location: "Remote",
+    },
+    { title: "Python Developer Intern", experience: "0-2", location: "Remote" },
   ];
 
   return (
@@ -14,23 +18,40 @@ const CareersSection = () => {
             Careers
           </h2>
         </div>
-        
+        <div>
+          <p className="text-lg font-medium text-foreground mb-2">
+            <span className="underline">Write to us at:</span>
+          </p>
+          <p className="text-lg text-foreground">sales@eaigen.tech</p>
+        </div>
         <div className="max-w-4xl mx-auto">
           <table className="w-full border-collapse">
             <thead>
               <tr className="border-b-2 border-foreground">
-                <th className="text-left py-3 px-4 text-lg font-bold text-foreground">Positions</th>
-                <th className="text-left py-3 px-4 text-lg font-bold text-foreground">Experience</th>
-                <th className="text-left py-3 px-4 text-lg font-bold text-foreground">Location</th>
+                <th className="text-left py-3 px-4 text-lg font-bold text-foreground">
+                  Positions
+                </th>
+                <th className="text-left py-3 px-4 text-lg font-bold text-foreground">
+                  Experience
+                </th>
+                <th className="text-left py-3 px-4 text-lg font-bold text-foreground">
+                  Location
+                </th>
                 <th className="text-left py-3 px-4 text-lg font-bold text-foreground"></th>
               </tr>
             </thead>
             <tbody>
               {positions.map((position, index) => (
                 <tr key={index} className="border-b border-border">
-                  <td className="py-3 px-4 text-foreground">{position.title}</td>
-                  <td className="py-3 px-4 text-foreground">{position.experience}</td>
-                  <td className="py-3 px-4 text-foreground">{position.location}</td>
+                  <td className="py-3 px-4 text-foreground">
+                    {position.title}
+                  </td>
+                  <td className="py-3 px-4 text-foreground">
+                    {position.experience}
+                  </td>
+                  <td className="py-3 px-4 text-foreground">
+                    {position.location}
+                  </td>
                   <td className="py-3 px-4">
                     <button className="text-foreground hover:text-accent transition-colors underline">
                       Apply
